@@ -28,8 +28,4 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 
 **UML:**
 
-<<<<<<< HEAD
-![UML IPHONE](UML\Iphone UML.jpeg)
-=======
 ![UML IPHONE](https://github.com/samrickbr/dio-trilha-java-basico/blob/main/UML/Iphone%20UML.jpeg)
->>>>>>> 122f7590772718ba4310ae1b5dfe298487ca86cf
