@@ -1,9 +1,8 @@
-package UML.Iphone.Aplicativos;
+package UML.Iphone.src.Aplicativos;
 
-import UML.Iphone.Funcoes.ReprodutorMusical;
+import UML.Iphone.src.Funcoes.ReprodutorMusical;
 
 public class Ipod implements ReprodutorMusical {
-
     // reprodutor de musica
     @Override
     public void tocar() {
@@ -19,5 +18,4 @@ public class Ipod implements ReprodutorMusical {
     public void selecionarMusica() {
         System.out.println("Selecionando música");
     }
-
 }

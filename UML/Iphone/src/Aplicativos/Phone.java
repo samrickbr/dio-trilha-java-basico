@@ -1,9 +1,8 @@
-package UML.Iphone.Aplicativos;
+package UML.Iphone.src.Aplicativos;
 
-import UML.Iphone.Funcoes.Telefone;
+import UML.Iphone.src.Funcoes.Telefone;
 
 public class Phone implements Telefone {
-
     // telefone
     @Override
     public void ligar() {

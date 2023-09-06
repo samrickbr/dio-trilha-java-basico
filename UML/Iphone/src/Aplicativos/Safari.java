@@ -1,9 +1,8 @@
-package UML.Iphone.Aplicativos;
+package UML.Iphone.src.Aplicativos;
 
-import UML.Iphone.Funcoes.Navegador;
+import UML.Iphone.src.Funcoes.Navegador;
 
-public class Safari implements Navegador {
-
+public class Safari implements Navegador{
     // navegador
     @Override
     public void exibirPagina() {
@@ -19,5 +18,5 @@ public class Safari implements Navegador {
     public void atualizarPagina() {
         System.out.println("Atualizando página atual do navegador");
     }
-
+    
 }

@@ -1,16 +1,15 @@
-package UML.Iphone;
+package UML.Iphone.src;
 
-import UML.Iphone.Aplicativos.Ipod;
-import UML.Iphone.Aplicativos.Phone;
-import UML.Iphone.Aplicativos.Safari;
+import UML.Iphone.src.Aplicativos.Ipod;
+import UML.Iphone.src.Aplicativos.Phone;
+import UML.Iphone.src.Aplicativos.Safari;
 
 public class Iphone {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         
-        Iphone iphone = new Iphone();
-        Safari safari = new Safari();
-        Ipod ipod = new Ipod();
-        Phone phone = new Phone();
+        final Safari safari = new Safari();
+        final Ipod ipod = new Ipod();
+        final Phone phone = new Phone();
 
         System.out.println("Funções do telefone:");
         phone.ligar();
@@ -25,8 +24,6 @@ public class Iphone {
         System.out.println("\nFunções do navegador de internet:");
         safari.exibirPagina();
         safari.adicionarNovaAba();
-        safari.atualizarPagina();
-
+        safari.atualizarPagina(); 
     }
-    
 }

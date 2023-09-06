@@ -1,4 +1,4 @@
-package UML.Iphone.Funcoes;
+package UML.Iphone.src.Funcoes;
 
 public interface Telefone {
     public void ligar();

@@ -1,3 +1,5 @@
+package ControleCandidatos.ProcessoSeletivo.src;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Seletivo {
